@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    background: white;
+}
+.izi-container{
+    padding: 0;
+    margin: 0 ;
+    background: url("./bg.png");
+    overflow: hidden;
+}
+/*Navbar*/
+.navbar {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    margin: 5px;
+}
+
+.log {
+    height: 30px;
+    width: 100px;
+}
+
+.part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 80px;
+    margin: 5px;
+    text-decoration: underline;
+    background: linear-gradient(360deg, rgba(147, 146, 146, 0.7010154403558299) 33%, rgba(255, 255, 255, 1) 100%);
+    border: hidden;
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.user-logo {
+    height: 30px;
+    width: 30px;
+}
+
+p {
+    margin: 5px;
+}
+
+.search {
+    height: 30px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 10%;
+    border: hidden;
+}
+
+/*Bienvenue dans IZIPARTY*/
+.bienvenu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 30px;
+}
+
+.title-container {
+    margin: 10px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: rgb(219, 122, 87);
+    font-size: 2rem;
+}
+
+.bienvenu1 {
+    margin: 20px 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.decouvrir {
+
+    background: linear-gradient(360deg, rgba(255, 106, 0, 0.5749650201877626) 33%, rgba(36, 6, 6, 0.5217437316723564) 85%);
+}
+
+.image-conrainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.faites {
+}
+
+
+/*Qui sommes nous ?*/
+.qui {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 30px;
+}
+
+.part2 {
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.img2 {
+    height: 150px;
+    width: 90px;
+    margin: 0;
+}
+
+.title-container1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.title1 {
+    margin: 10px;
+    color: rgb(141, 75, 17);
+    font-size: 1.2rem;
+}
+
+.desc-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100px;
+    margin: 20px;
+}
+.description{
+    width: 200px;
+}
+
+
+/*Derniere realisation*/
+
+.real {
+    margin: 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.real-container {
+    margin: 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100vw;
+}
+
+.part3 {
+    margin: 10px;
+}
+
+.img3 {
+    height: 85px;
+    width: 150px;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: peru;
+    
+    align-items: center;
+    width: 100%;
+    margin: 0;
+}
+
+.list {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.connecter {
+    width: 200px;
+    margin: 20px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center;
+}
+.con-insc{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.cont{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.inp{
+    margin :5px ;
+}
+.icons{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+}
+.list p{
+    text-decoration: underline;
+}
+.connecter p{
+   font-size: 0.9em;
+}
